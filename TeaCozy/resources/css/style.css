@@ -1,0 +1,165 @@
+/*Global rules*/
+body {
+	padding: 0;
+	margin: 0;
+	
+	background-color: black;
+	
+	font-family: Helvetica, sans-serif;
+	font-size: 22px;
+	opacity: 0.9;
+}
+
+body,
+a {
+	color: seashell;
+}
+
+a {
+	text-decoration: underline;
+}
+
+h2,
+h4 {
+	margin: 10px;
+}
+
+header, 
+footer {
+	width: 100%;
+}
+
+ /*Header*/
+header {
+	position: fixed;
+	z-index: 1;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	background-color: black;
+}
+
+header img {
+	height: 50px;
+	padding-left: 10px;
+}
+
+.navigation {
+	display: flex;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: flex-end;
+	height: 100%;
+}
+
+nav span {
+	padding: 0 10px;
+}
+
+/*Main Container and Footer Positioning*/
+#main,
+footer {
+	position: relative;
+	top: 69px;
+}
+
+/*Block*/
+.block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	background-color: black;
+}
+
+/*Main Container*/
+#main {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*First Block*/
+#block-1 {
+	background-image: url("../images/img-mission-background.jpg");
+	width: 1200px;
+	height: 700px;
+	margin-bottom: 60px;
+}
+
+/*Second Block*/
+#block-2 {
+	width: 1000px;
+	margin-bottom: 60px;
+}
+
+/*Third Block*/
+#block-3 {
+	background-image: url("../images/img-locations-background.jpg");
+	width: 1200px;
+	height: 500px;
+}
+
+/*Title*/
+.title {
+	width: 100%;
+}
+
+.locations {
+	background-color: transparent;
+}
+
+/*Product Container*/
+.products {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	
+	margin-top: 10px;
+}
+
+/*Item*/
+.item {
+	margin: 10px;
+}
+
+/*Item Picture Size*/
+.item img {
+	width: 300px;
+	height: 200px;
+}
+
+/*Locations Adresses*/
+.adresses {
+	display: flex;
+	justify-content: center;
+}
+
+.adress {
+	width: 300px;
+	height: 300px;
+	margin: 5px 20px 0 20px;
+	opacity: 1;
+}
+
+/*Footer*/
+.contact {
+	justify-content: flex-start;
+
+	height: 200px;
+	margin: 0 auto;
+}
+
+.contact h5 {
+	margin-bottom: 0;
+}
+
+.copyright {
+	margin-left: 20px;
+}
